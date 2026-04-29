@@ -1,6 +1,6 @@
 # Cursor 系统提示词分析
 
-> Cursor 是一款流行的 AI IDE 工具，默认集成了大量主流 LLM 用于 AI Coding.
+> Cursor 是一款流行的 AI IDE 工具，默认集成了大量主流 LLM 用于 AI Coding.  
 > 通过 BYOK + Override OpenAI Base URL + 一个 OpenAI-compatible logger/proxy，可以捕获 Cursor 最终发往模型提供方的请求体。
 
 ## Cursor API keys
@@ -363,11 +363,11 @@ async def responses(request: Request):
 
 > **因为 Cursor 的 Override OpenAI Base URL 需要可被外部访问的地址，不支持本地服务**
 
-![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/8K4nyeZAXpGpPnLb/img/c888b1e0-0819-43d8-a960-189b1bf1b403.png)
+![image.png](../../assets/images/2026/c888b1e0-0819-43d8-a960-189b1bf1b403.png)
 
 ### 3.打开 Cursor Settings —> Models —> API Keys ，将 ngork 提供的公网地址配置到 Override OpenAI Base URL，开启一个 chat 窗口选择 OpenAI 类型（如GPT-5.4）的模型对话
 
-![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/8K4nyeZAXpGpPnLb/img/3843afaa-0f2e-4665-89b6-4abf2dfbf1b1.png)
+![image.png](../../assets/images/2026/3843afaa-0f2e-4665-89b6-4abf2dfbf1b1.png)
 
 ### 4.获取到 Cursor 发给底层模型的系统提示词
 
@@ -1053,7 +1053,7 @@ async def responses(request: Request):
 }
 ````
 
-![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/8K4nyeZAXpGpPnLb/img/f30a832d-f6d1-4793-9970-6d028f4579fc.png)
+![image.png](../../assets/images/2026/f30a832d-f6d1-4793-9970-6d028f4579fc.png)
 
 ### 5.提示词分析获取使用技巧
 
