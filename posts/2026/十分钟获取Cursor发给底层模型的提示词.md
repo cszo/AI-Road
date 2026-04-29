@@ -1,4 +1,4 @@
-# Cursor 系统提示词分析
+# 十分钟获取 Cursor 发给底层模型的提示词
 
 > Cursor 是一款流行的 AI IDE 工具，默认集成了大量主流 LLM 用于 AI Coding.  
 > 通过 BYOK + Override OpenAI Base URL + 一个 OpenAI-compatible logger/proxy，可以捕获 Cursor 最终发往模型提供方的请求体。
