@@ -1,0 +1,8 @@
+# 作者本地维护说明（提交 README 给读者即可）
+# 首次使用：cp AUTHOR.local.example.md AUTHOR.local.md
+AUTHOR.local.md
+
+# 本地写作区：远程仅存「成文」见 posts/ 与 index/
+drafts/
+notes/
+templates/
